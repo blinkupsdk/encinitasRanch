@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "blinkup",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:blinkupsdk/bLinkup.git",
+      "state" : {
+        "revision" : "1843d963ec41d95d887aacd077e8aefa8736699c",
+        "version" : "2.1.5"
+      }
+    }
+  ],
+  "version" : 2
+}
