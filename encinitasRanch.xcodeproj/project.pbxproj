@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A220C12C2F16C4004020EE /* swiftTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A220C02C2F16C4004020EE /* swiftTemplateApp.swift */; };
+		08A220C12C2F16C4004020EE /* encinitasRanchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A220C02C2F16C4004020EE /* encinitasRanchApp.swift */; };
 		08A220C32C2F16C4004020EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A220C22C2F16C4004020EE /* ContentView.swift */; };
 		08A220C52C2F16C6004020EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A220C42C2F16C6004020EE /* Assets.xcassets */; };
 		08A220C82C2F16C6004020EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A220C72C2F16C6004020EE /* Preview Assets.xcassets */; };
@@ -35,14 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A220BD2C2F16C4004020EE /* swiftTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08A220C02C2F16C4004020EE /* swiftTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTemplateApp.swift; sourceTree = "<group>"; };
+		085644632C40A8B400CCC312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		08A220BD2C2F16C4004020EE /* encinitasRanch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = encinitasRanch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A220C02C2F16C4004020EE /* encinitasRanchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encinitasRanchApp.swift; sourceTree = "<group>"; };
 		08A220C22C2F16C4004020EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08A220C42C2F16C6004020EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A220C72C2F16C6004020EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		08A220CD2C2F16C6004020EE /* swiftTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A220CD2C2F16C6004020EE /* encinitasRanchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encinitasRanchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A220D12C2F16C6004020EE /* swiftTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTemplateTests.swift; sourceTree = "<group>"; };
-		08A220D72C2F16C6004020EE /* swiftTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A220D72C2F16C6004020EE /* encinitasRanchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encinitasRanchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A220DB2C2F16C6004020EE /* swiftTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTemplateUITests.swift; sourceTree = "<group>"; };
 		08A220DD2C2F16C6004020EE /* swiftTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,9 +77,9 @@
 		08A220B42C2F16C4004020EE = {
 			isa = PBXGroup;
 			children = (
-				08A220BF2C2F16C4004020EE /* swiftTemplate */,
-				08A220D02C2F16C6004020EE /* swiftTemplateTests */,
-				08A220DA2C2F16C6004020EE /* swiftTemplateUITests */,
+				08A220BF2C2F16C4004020EE /* encinitasRanch */,
+				08A220D02C2F16C6004020EE /* encinitasRanchTests */,
+				08A220DA2C2F16C6004020EE /* encinitasRanchUITests */,
 				08A220BE2C2F16C4004020EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,22 +87,23 @@
 		08A220BE2C2F16C4004020EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08A220BD2C2F16C4004020EE /* swiftTemplate.app */,
-				08A220CD2C2F16C6004020EE /* swiftTemplateTests.xctest */,
-				08A220D72C2F16C6004020EE /* swiftTemplateUITests.xctest */,
+				08A220BD2C2F16C4004020EE /* encinitasRanch.app */,
+				08A220CD2C2F16C6004020EE /* encinitasRanchTests.xctest */,
+				08A220D72C2F16C6004020EE /* encinitasRanchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		08A220BF2C2F16C4004020EE /* swiftTemplate */ = {
+		08A220BF2C2F16C4004020EE /* encinitasRanch */ = {
 			isa = PBXGroup;
 			children = (
-				08A220C02C2F16C4004020EE /* swiftTemplateApp.swift */,
+				085644632C40A8B400CCC312 /* Info.plist */,
+				08A220C02C2F16C4004020EE /* encinitasRanchApp.swift */,
 				08A220C22C2F16C4004020EE /* ContentView.swift */,
 				08A220C42C2F16C6004020EE /* Assets.xcassets */,
 				08A220C62C2F16C6004020EE /* Preview Content */,
 			);
-			path = swiftTemplate;
+			path = encinitasRanch;
 			sourceTree = "<group>";
 		};
 		08A220C62C2F16C6004020EE /* Preview Content */ = {
@@ -112,29 +114,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		08A220D02C2F16C6004020EE /* swiftTemplateTests */ = {
+		08A220D02C2F16C6004020EE /* encinitasRanchTests */ = {
 			isa = PBXGroup;
 			children = (
 				08A220D12C2F16C6004020EE /* swiftTemplateTests.swift */,
 			);
-			path = swiftTemplateTests;
+			path = encinitasRanchTests;
 			sourceTree = "<group>";
 		};
-		08A220DA2C2F16C6004020EE /* swiftTemplateUITests */ = {
+		08A220DA2C2F16C6004020EE /* encinitasRanchUITests */ = {
 			isa = PBXGroup;
 			children = (
 				08A220DB2C2F16C6004020EE /* swiftTemplateUITests.swift */,
 				08A220DD2C2F16C6004020EE /* swiftTemplateUITestsLaunchTests.swift */,
 			);
-			path = swiftTemplateUITests;
+			path = encinitasRanchUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08A220BC2C2F16C4004020EE /* swiftTemplate */ = {
+		08A220BC2C2F16C4004020EE /* encinitasRanch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08A220E12C2F16C6004020EE /* Build configuration list for PBXNativeTarget "swiftTemplate" */;
+			buildConfigurationList = 08A220E12C2F16C6004020EE /* Build configuration list for PBXNativeTarget "encinitasRanch" */;
 			buildPhases = (
 				08A220B92C2F16C4004020EE /* Sources */,
 				08A220BA2C2F16C4004020EE /* Frameworks */,
@@ -144,17 +146,17 @@
 			);
 			dependencies = (
 			);
-			name = swiftTemplate;
+			name = encinitasRanch;
 			packageProductDependencies = (
 				08A220EB2C2F1704004020EE /* bLinkup */,
 			);
 			productName = swiftTemplate;
-			productReference = 08A220BD2C2F16C4004020EE /* swiftTemplate.app */;
+			productReference = 08A220BD2C2F16C4004020EE /* encinitasRanch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		08A220CC2C2F16C6004020EE /* swiftTemplateTests */ = {
+		08A220CC2C2F16C6004020EE /* encinitasRanchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08A220E42C2F16C6004020EE /* Build configuration list for PBXNativeTarget "swiftTemplateTests" */;
+			buildConfigurationList = 08A220E42C2F16C6004020EE /* Build configuration list for PBXNativeTarget "encinitasRanchTests" */;
 			buildPhases = (
 				08A220C92C2F16C6004020EE /* Sources */,
 				08A220CA2C2F16C6004020EE /* Frameworks */,
@@ -165,14 +167,14 @@
 			dependencies = (
 				08A220CF2C2F16C6004020EE /* PBXTargetDependency */,
 			);
-			name = swiftTemplateTests;
+			name = encinitasRanchTests;
 			productName = swiftTemplateTests;
-			productReference = 08A220CD2C2F16C6004020EE /* swiftTemplateTests.xctest */;
+			productReference = 08A220CD2C2F16C6004020EE /* encinitasRanchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		08A220D62C2F16C6004020EE /* swiftTemplateUITests */ = {
+		08A220D62C2F16C6004020EE /* encinitasRanchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08A220E72C2F16C6004020EE /* Build configuration list for PBXNativeTarget "swiftTemplateUITests" */;
+			buildConfigurationList = 08A220E72C2F16C6004020EE /* Build configuration list for PBXNativeTarget "encinitasRanchUITests" */;
 			buildPhases = (
 				08A220D32C2F16C6004020EE /* Sources */,
 				08A220D42C2F16C6004020EE /* Frameworks */,
@@ -183,9 +185,9 @@
 			dependencies = (
 				08A220D92C2F16C6004020EE /* PBXTargetDependency */,
 			);
-			name = swiftTemplateUITests;
+			name = encinitasRanchUITests;
 			productName = swiftTemplateUITests;
-			productReference = 08A220D72C2F16C6004020EE /* swiftTemplateUITests.xctest */;
+			productReference = 08A220D72C2F16C6004020EE /* encinitasRanchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 08A220B82C2F16C4004020EE /* Build configuration list for PBXProject "swiftTemplate" */;
+			buildConfigurationList = 08A220B82C2F16C4004020EE /* Build configuration list for PBXProject "encinitasRanch" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08A220BC2C2F16C4004020EE /* swiftTemplate */,
-				08A220CC2C2F16C6004020EE /* swiftTemplateTests */,
-				08A220D62C2F16C6004020EE /* swiftTemplateUITests */,
+				08A220BC2C2F16C4004020EE /* encinitasRanch */,
+				08A220CC2C2F16C6004020EE /* encinitasRanchTests */,
+				08A220D62C2F16C6004020EE /* encinitasRanchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08A220C32C2F16C4004020EE /* ContentView.swift in Sources */,
-				08A220C12C2F16C4004020EE /* swiftTemplateApp.swift in Sources */,
+				08A220C12C2F16C4004020EE /* encinitasRanchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		08A220CF2C2F16C6004020EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08A220BC2C2F16C4004020EE /* swiftTemplate */;
+			target = 08A220BC2C2F16C4004020EE /* encinitasRanch */;
 			targetProxy = 08A220CE2C2F16C6004020EE /* PBXContainerItemProxy */;
 		};
 		08A220D92C2F16C6004020EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08A220BC2C2F16C4004020EE /* swiftTemplate */;
+			target = 08A220BC2C2F16C4004020EE /* encinitasRanch */;
 			targetProxy = 08A220D82C2F16C6004020EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,24 +431,27 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftTemplate/Preview Content\"";
-				DEVELOPMENT_TEAM = 9C8YU64NSF;
+				DEVELOPMENT_ASSET_PATHS = "\"encinitasRanch/Preview Content\"";
+				DEVELOPMENT_TEAM = BT88N9P4DS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = encinitasRanch/Info.plist;
 				INFOPLIST_KEY_NSContactsUsageDescription = "to identify friends using the app, allowing us to notify you when they're nearby";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "to notify you when friends are nearby, facilitating spontaneous meetups";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to notify you when friends are nearby, facilitating spontaneous meetups";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to notify you when friends are nearby, facilitating spontaneous meetups";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bu.swiftTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = bu.encinitasRanchConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,24 +466,27 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftTemplate/Preview Content\"";
-				DEVELOPMENT_TEAM = 9C8YU64NSF;
+				DEVELOPMENT_ASSET_PATHS = "\"encinitasRanch/Preview Content\"";
+				DEVELOPMENT_TEAM = BT88N9P4DS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = encinitasRanch/Info.plist;
 				INFOPLIST_KEY_NSContactsUsageDescription = "to identify friends using the app, allowing us to notify you when they're nearby";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "to notify you when friends are nearby, facilitating spontaneous meetups";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to notify you when friends are nearby, facilitating spontaneous meetups";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to notify you when friends are nearby, facilitating spontaneous meetups";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bu.swiftTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = bu.encinitasRanchConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -502,7 +510,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftTemplate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encinitasRanch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/encinitasRanch";
 			};
 			name = Debug;
 		};
@@ -522,7 +530,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftTemplate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encinitasRanch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/encinitasRanch";
 			};
 			name = Release;
 		};
@@ -565,7 +573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08A220B82C2F16C4004020EE /* Build configuration list for PBXProject "swiftTemplate" */ = {
+		08A220B82C2F16C4004020EE /* Build configuration list for PBXProject "encinitasRanch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08A220DF2C2F16C6004020EE /* Debug */,
@@ -574,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08A220E12C2F16C6004020EE /* Build configuration list for PBXNativeTarget "swiftTemplate" */ = {
+		08A220E12C2F16C6004020EE /* Build configuration list for PBXNativeTarget "encinitasRanch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08A220E22C2F16C6004020EE /* Debug */,
@@ -583,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08A220E42C2F16C6004020EE /* Build configuration list for PBXNativeTarget "swiftTemplateTests" */ = {
+		08A220E42C2F16C6004020EE /* Build configuration list for PBXNativeTarget "encinitasRanchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08A220E52C2F16C6004020EE /* Debug */,
@@ -592,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08A220E72C2F16C6004020EE /* Build configuration list for PBXNativeTarget "swiftTemplateUITests" */ = {
+		08A220E72C2F16C6004020EE /* Build configuration list for PBXNativeTarget "encinitasRanchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08A220E82C2F16C6004020EE /* Debug */,
